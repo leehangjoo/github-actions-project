@@ -2,9 +2,9 @@ name: Python application
 
 on:
   push:
-    branches: [ python-ci-workflow ]
+    branches: [ leehangjoo-patch ]
   pull_request:
-    branches: [ python-ci-workflow ]
+    branches: [ leehangjoo-patch ]
 
 jobs:
   build:
